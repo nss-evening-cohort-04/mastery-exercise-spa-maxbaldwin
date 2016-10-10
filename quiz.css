@@ -1,1 +1,39 @@
-//need to add necessary css
+body {
+  text-align: center;
+}
+
+.car {
+  border-style: solid;
+  border-width: small;
+  background-color: #f0f0f0;
+  padding: 0px;
+}
+
+.sold {
+  position: relative;
+  opacity: 0.6
+}
+
+.rogue {
+  opacity: 0;
+  background-image: url(rogue.jpg);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 85%;
+  width: 75%;
+}
+
+.soldImage {
+  background-image: url(sold.jpg);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.selectedCar {
+  border-width: thick;
+  background-color: lightblue;
+}

@@ -22,7 +22,7 @@ function populatePage(inventory) {
                 nissanString += `<img class="soldImage" src="sold.jpg">`;
             }
             //will get actual picture soon
-            nissanString += `<img class="questionImage" src="Question.png">`;
+            nissanString += `<img class="rogue" src="rogue.jpg">`;
             nissanString += `</div>`;
             htmlContainer.innerHTML += nissanString;
 
