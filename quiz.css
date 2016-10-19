@@ -2,7 +2,13 @@ body {
   text-align: center;
 }
 
-.car {
+#title {
+  border: black 3px solid;
+  font-weight: bold; 
+  color: goldenrod;
+}
+
+.cars {
   border-style: solid;
   border-width: small;
   background-color: #f0f0f0;
@@ -15,18 +21,19 @@ body {
 }
 
 .rogue {
-  opacity: 0;
+  opacity: 0.3;
   background-image: url(rogue.jpg);
-  position: absolute;
+  position: relative;
   top: 0px;
   left: 0px;
-  height: 85%;
+  height: 80%;
   width: 75%;
 }
 
 .soldImage {
+  opacity: 1;
   background-image: url(sold.jpg);
-  position: absolute;
+  position: relative;
   top: 0px;
   left: 0px;
   height: 100%;

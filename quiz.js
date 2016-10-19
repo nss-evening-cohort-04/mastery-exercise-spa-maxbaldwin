@@ -7,11 +7,11 @@ function populatePage(inventory) {
     for (var i = 0; i < inventory.length; i++) {
 
 
-            nissanString = `<div class="col-sm-4 car`;
+            nissanString = `<div class="col-sm-4 car>`;
             if (inventory[i].purchased) {
-                carString += sold;
+                nissanString += sold;
             }
-            nissanString += `" style="border-color: ${inventory[i].color};">`;
+            nissanString += `"<style="border-color: ${inventory[i].color};">`;
             nissanString += `<h1>${inventory[i].make}</h1>`;
             nissanString += `<h2>${inventory[i].model}</h2>`;
             nissanString += `<h2>Year: ${inventory[i].year}</h2>`;

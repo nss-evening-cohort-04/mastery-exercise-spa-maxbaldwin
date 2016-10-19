@@ -13,11 +13,11 @@ var CarLot = (function(newCarLot) {
     };
     newCarLot.clearTextInputOnClick = function() {
         textInput.focus();
-        textInput.value = "";
+        textInput.value = " ";
     };
     newCarLot.changeDescriptionToInput = function() {
         for (var i = 0; i < container.children.length; i++) {
-            if (container.children[i].classList.contains("selectedCar")) {
+            if (container.children[i].classList.contains('selectedCar')) {
                 container.children[i].children[4].textContent = textInput.value
             };
         };
